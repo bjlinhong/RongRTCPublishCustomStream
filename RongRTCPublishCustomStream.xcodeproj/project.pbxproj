@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39BA641025E66D3500B2A8C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BA640F25E66D3500B2A8C9 /* AppDelegate.m */; };
+		39BA641325E66D3500B2A8C9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BA641225E66D3500B2A8C9 /* SceneDelegate.m */; };
+		39BA641925E66D3500B2A8C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39BA641725E66D3500B2A8C9 /* Main.storyboard */; };
+		39BA641B25E66D3700B2A8C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39BA641A25E66D3700B2A8C9 /* Assets.xcassets */; };
+		39BA641E25E66D3700B2A8C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39BA641C25E66D3700B2A8C9 /* LaunchScreen.storyboard */; };
+		39BA642125E66D3700B2A8C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BA642025E66D3700B2A8C9 /* main.m */; };
+		39BA643825E66E3C00B2A8C9 /* AppID.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BA643225E66E3C00B2A8C9 /* AppID.m */; };
+		39BA643925E66E3C00B2A8C9 /* VideoRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BA643325E66E3C00B2A8C9 /* VideoRoomViewController.m */; };
+		39BA644F25E678E400B2A8C9 /* video_demo2_low.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 39BA644E25E678E400B2A8C9 /* video_demo2_low.mp4 */; };
+		39BA645325E6793C00B2A8C9 /* RCRTCFileSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BA645225E6793C00B2A8C9 /* RCRTCFileSource.m */; };
+		81EAC4BE62366883C53C22D2 /* libPods-RongRTCPublishCustomStream.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC334557CDD597DF6D2A9D5 /* libPods-RongRTCPublishCustomStream.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35397AC13500B7CA1849AC10 /* Pods-RongRTCPublishCustomStream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RongRTCPublishCustomStream.release.xcconfig"; path = "Target Support Files/Pods-RongRTCPublishCustomStream/Pods-RongRTCPublishCustomStream.release.xcconfig"; sourceTree = "<group>"; };
+		39BA640B25E66D3500B2A8C9 /* RongRTCPublishCustomStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RongRTCPublishCustomStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39BA640E25E66D3500B2A8C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39BA640F25E66D3500B2A8C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39BA641125E66D3500B2A8C9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		39BA641225E66D3500B2A8C9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		39BA641825E66D3500B2A8C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39BA641A25E66D3700B2A8C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39BA641D25E66D3700B2A8C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39BA641F25E66D3700B2A8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39BA642025E66D3700B2A8C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39BA643225E66E3C00B2A8C9 /* AppID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppID.m; sourceTree = "<group>"; };
+		39BA643325E66E3C00B2A8C9 /* VideoRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoRoomViewController.m; sourceTree = "<group>"; };
+		39BA643525E66E3C00B2A8C9 /* VideoRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoRoomViewController.h; sourceTree = "<group>"; };
+		39BA643625E66E3C00B2A8C9 /* AppID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppID.h; sourceTree = "<group>"; };
+		39BA644E25E678E400B2A8C9 /* video_demo2_low.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video_demo2_low.mp4; sourceTree = "<group>"; };
+		39BA645125E6793C00B2A8C9 /* RCRTCFileSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRTCFileSource.h; sourceTree = "<group>"; };
+		39BA645225E6793C00B2A8C9 /* RCRTCFileSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCRTCFileSource.m; sourceTree = "<group>"; };
+		8E96744008C853025D7D80FB /* Pods-RongRTCPublishCustomStream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RongRTCPublishCustomStream.debug.xcconfig"; path = "Target Support Files/Pods-RongRTCPublishCustomStream/Pods-RongRTCPublishCustomStream.debug.xcconfig"; sourceTree = "<group>"; };
+		9AC334557CDD597DF6D2A9D5 /* libPods-RongRTCPublishCustomStream.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RongRTCPublishCustomStream.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39BA640825E66D3500B2A8C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81EAC4BE62366883C53C22D2 /* libPods-RongRTCPublishCustomStream.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39BA640225E66D3500B2A8C9 = {
+			isa = PBXGroup;
+			children = (
+				39BA640D25E66D3500B2A8C9 /* RongRTCPublishCustomStream */,
+				39BA640C25E66D3500B2A8C9 /* Products */,
+				8EE3452956E4ED87EA4B3FC5 /* Pods */,
+				E0F0734BF5DF917C54FBCBEC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		39BA640C25E66D3500B2A8C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39BA640B25E66D3500B2A8C9 /* RongRTCPublishCustomStream.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39BA640D25E66D3500B2A8C9 /* RongRTCPublishCustomStream */ = {
+			isa = PBXGroup;
+			children = (
+				39BA643625E66E3C00B2A8C9 /* AppID.h */,
+				39BA643225E66E3C00B2A8C9 /* AppID.m */,
+				39BA643525E66E3C00B2A8C9 /* VideoRoomViewController.h */,
+				39BA643325E66E3C00B2A8C9 /* VideoRoomViewController.m */,
+				39BA645125E6793C00B2A8C9 /* RCRTCFileSource.h */,
+				39BA645225E6793C00B2A8C9 /* RCRTCFileSource.m */,
+				39BA644D25E678E400B2A8C9 /* Resource */,
+				39BA640E25E66D3500B2A8C9 /* AppDelegate.h */,
+				39BA640F25E66D3500B2A8C9 /* AppDelegate.m */,
+				39BA641125E66D3500B2A8C9 /* SceneDelegate.h */,
+				39BA641225E66D3500B2A8C9 /* SceneDelegate.m */,
+				39BA641725E66D3500B2A8C9 /* Main.storyboard */,
+				39BA641A25E66D3700B2A8C9 /* Assets.xcassets */,
+				39BA641C25E66D3700B2A8C9 /* LaunchScreen.storyboard */,
+				39BA641F25E66D3700B2A8C9 /* Info.plist */,
+				39BA642025E66D3700B2A8C9 /* main.m */,
+			);
+			path = RongRTCPublishCustomStream;
+			sourceTree = "<group>";
+		};
+		39BA644D25E678E400B2A8C9 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				39BA644E25E678E400B2A8C9 /* video_demo2_low.mp4 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8EE3452956E4ED87EA4B3FC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E96744008C853025D7D80FB /* Pods-RongRTCPublishCustomStream.debug.xcconfig */,
+				35397AC13500B7CA1849AC10 /* Pods-RongRTCPublishCustomStream.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E0F0734BF5DF917C54FBCBEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AC334557CDD597DF6D2A9D5 /* libPods-RongRTCPublishCustomStream.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39BA640A25E66D3500B2A8C9 /* RongRTCPublishCustomStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39BA642425E66D3700B2A8C9 /* Build configuration list for PBXNativeTarget "RongRTCPublishCustomStream" */;
+			buildPhases = (
+				145E6812C79CD6EEB095C550 /* [CP] Check Pods Manifest.lock */,
+				39BA640725E66D3500B2A8C9 /* Sources */,
+				39BA640825E66D3500B2A8C9 /* Frameworks */,
+				39BA640925E66D3500B2A8C9 /* Resources */,
+				139568CCC9E24D6AEB522EAA /* [CP] Embed Pods Frameworks */,
+				18A8FEF77E823DB5D7131DC9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RongRTCPublishCustomStream;
+			productName = RongRTCPublishCustomStream;
+			productReference = 39BA640B25E66D3500B2A8C9 /* RongRTCPublishCustomStream.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39BA640325E66D3500B2A8C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					39BA640A25E66D3500B2A8C9 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 39BA640625E66D3500B2A8C9 /* Build configuration list for PBXProject "RongRTCPublishCustomStream" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39BA640225E66D3500B2A8C9;
+			productRefGroup = 39BA640C25E66D3500B2A8C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39BA640A25E66D3500B2A8C9 /* RongRTCPublishCustomStream */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39BA640925E66D3500B2A8C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39BA644F25E678E400B2A8C9 /* video_demo2_low.mp4 in Resources */,
+				39BA641E25E66D3700B2A8C9 /* LaunchScreen.storyboard in Resources */,
+				39BA641B25E66D3700B2A8C9 /* Assets.xcassets in Resources */,
+				39BA641925E66D3500B2A8C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		139568CCC9E24D6AEB522EAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RongRTCPublishCustomStream/Pods-RongRTCPublishCustomStream-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RongRTCPublishCustomStream/Pods-RongRTCPublishCustomStream-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RongRTCPublishCustomStream/Pods-RongRTCPublishCustomStream-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		145E6812C79CD6EEB095C550 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RongRTCPublishCustomStream-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18A8FEF77E823DB5D7131DC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RongRTCPublishCustomStream/Pods-RongRTCPublishCustomStream-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RongRTCPublishCustomStream/Pods-RongRTCPublishCustomStream-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RongRTCPublishCustomStream/Pods-RongRTCPublishCustomStream-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39BA640725E66D3500B2A8C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39BA643925E66E3C00B2A8C9 /* VideoRoomViewController.m in Sources */,
+				39BA645325E6793C00B2A8C9 /* RCRTCFileSource.m in Sources */,
+				39BA641025E66D3500B2A8C9 /* AppDelegate.m in Sources */,
+				39BA643825E66E3C00B2A8C9 /* AppID.m in Sources */,
+				39BA642125E66D3700B2A8C9 /* main.m in Sources */,
+				39BA641325E66D3500B2A8C9 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		39BA641725E66D3500B2A8C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39BA641825E66D3500B2A8C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39BA641C25E66D3700B2A8C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39BA641D25E66D3700B2A8C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39BA642225E66D3700B2A8C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		39BA642325E66D3700B2A8C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39BA642525E66D3700B2A8C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E96744008C853025D7D80FB /* Pods-RongRTCPublishCustomStream.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQJSB93Y3D;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = RongRTCPublishCustomStream/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.rongcloud.RongRTCPublishCustomStream.RongRTCPublishCustomStream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39BA642625E66D3700B2A8C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35397AC13500B7CA1849AC10 /* Pods-RongRTCPublishCustomStream.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CVMN4UZK4;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = RongRTCPublishCustomStream/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.rongcloud.RongRTCPublishCustomStream.RongRTCPublishCustomStream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39BA640625E66D3500B2A8C9 /* Build configuration list for PBXProject "RongRTCPublishCustomStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39BA642225E66D3700B2A8C9 /* Debug */,
+				39BA642325E66D3700B2A8C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39BA642425E66D3700B2A8C9 /* Build configuration list for PBXNativeTarget "RongRTCPublishCustomStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39BA642525E66D3700B2A8C9 /* Debug */,
+				39BA642625E66D3700B2A8C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39BA640325E66D3500B2A8C9 /* Project object */;
+}

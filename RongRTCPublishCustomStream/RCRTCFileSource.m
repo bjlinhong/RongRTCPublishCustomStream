@@ -93,7 +93,11 @@ typedef NS_ENUM(NSInteger, RCRTCFileVideoCapturerStatus) {
     NSDictionary* settings = @{AVFormatIDKey:               @(kAudioFormatLinearPCM),
                                AVSampleRateKey:             @(asbd.mSampleRate),
                                AVNumberOfChannelsKey:       @(asbd.mChannelsPerFrame),
-                               AVLinearPCMIsNonInterleaved: @(NO)};
+                               AVLinearPCMIsNonInterleaved: @(NO),
+                               AVLinearPCMIsBigEndianKey: @(NO),
+                               AVLinearPCMIsFloatKey: @(NO),
+                               AVLinearPCMBitDepthKey: @(asbd.mBitsPerChannel)
+    };
     _outAudioTrack = 
         [[AVAssetReaderTrackOutput alloc] initWithTrack:audioTrack outputSettings:settings];
     if ([_reader canAddOutput:_outAudioTrack]) {
